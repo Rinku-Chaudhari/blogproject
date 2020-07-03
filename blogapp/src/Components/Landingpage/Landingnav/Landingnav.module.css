@@ -1,0 +1,82 @@
+.Landingnav{
+    padding-top:25px;
+    background-color:#20bf6b;
+    margin:0;
+}
+
+.Landingnavflex{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.Landingnav button{
+    border:none;
+    background-color:inherit;
+    display:none;
+}
+
+.Landingnav button:hover{
+    cursor: pointer;
+}
+
+.Landingnav .fas{
+    color:white;
+    font-size:20px;
+}
+
+.Landingnav .fas:hover{
+    color:skyblue;
+}
+
+.Landingnav li{
+    list-style-type:none;
+}
+
+.Landingnav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+}
+
+.Landingnav a:hover{
+    color:skyblue;
+}
+
+.Branding{
+    font-weight:bold;
+}
+
+.Registration{
+    display:flex;
+    flex-direction:row;
+}
+
+.Signupbtn{
+    background-color:#fc5665;
+    padding:8px 22px;
+    border-radius:5px;
+}
+
+.Sideregister{
+    display:none;
+    flex-direction:row;
+    justify-content:center;
+    background-color:tomato;
+    padding:20px;
+}
+
+.Flex{
+    display:flex;
+}
+
+
+@media(max-width:900px){
+    .Registration{
+       display:none;
+    }
+    .Landingnav button{
+        display:block;
+    }
+
+}

@@ -1,0 +1,16 @@
+.Deletediv{
+    width:200px;
+    margin: auto;
+}
+
+.Deletediv button{
+    margin-right:10px;
+}
+
+.Deletediv button:hover{
+    cursor: pointer;
+}
+
+.Errorview{
+    text-align:center;
+}

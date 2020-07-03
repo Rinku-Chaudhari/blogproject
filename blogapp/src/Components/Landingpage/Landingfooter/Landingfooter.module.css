@@ -1,0 +1,30 @@
+.Landingfooter{
+    margin-top:180px;
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+    padding-bottom:5px;
+}
+
+.Landingfooter h5{
+    text-align:center;
+}
+
+.About{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    padding-top:50px;
+}
+
+
+.Info{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+}
+
+.Landingfooter img{
+    width:25px;
+    height:25px;
+    margin:14px 15px 14px 35px;
+}

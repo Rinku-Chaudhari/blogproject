@@ -1,0 +1,39 @@
+.Createform{
+    width:75%;
+    margin: auto;
+}
+
+.Createform input,textarea{
+    width:100%;
+    margin-bottom:35px;
+    border:none;
+    outline:none;
+}
+
+.Createform textarea{
+    min-width:100.2%;
+    max-width:100.2%;
+    height:auto;
+    overflow-y:hidden;
+}
+
+.Createform [type='submit']{
+    height:30px;
+    border-radius:4px;
+}
+
+.Createform [type='submit']:hover{
+    cursor: pointer;
+    background-color:wheat;
+}
+
+.Createform [type='submit']:disabled{
+    cursor:not-allowed;
+}
+
+
+
+.Errorview{
+    text-align: center;
+    margin-top:150px;
+}
