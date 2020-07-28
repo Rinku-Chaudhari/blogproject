@@ -3,6 +3,7 @@ import { NavLink, withRouter } from 'react-router-dom';
 
 import classes from './Blogpagenav.module.css';
 
+
 const Blogpagenav = (props) => {
     const logoutHandler = () => {
         localStorage.setItem('loggedin', false);

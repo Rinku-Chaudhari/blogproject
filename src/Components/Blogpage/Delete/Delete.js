@@ -68,7 +68,7 @@ const Delete = (props) => {
             <div className={classes.Errorview} style={!loading ? { display: 'none' } : null}>
                 <h5>Loading.....</h5>
             </div>
-        </div >
+        </div>
     )
 }
 
