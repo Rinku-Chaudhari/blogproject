@@ -1,0 +1,84 @@
+.nav-bar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    border-bottom:solid 1px rgba(0,0,0,0.2);
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    background-color: white;
+}
+
+.nav-bar .logo-bar i{
+    font-size:20px;
+}
+
+.nav-bar .links-bar{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.nav-bar .links-bar li:hover{
+    cursor: pointer;
+    color:rgba(0,0,0,0.2);
+}
+
+
+.nav-bar .toggle-bar{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.nav-bar .toggle-bar input{
+    margin-top:5px;
+}
+
+.nav-bar .toggle-bar input:hover{
+    cursor: pointer;
+}
+
+.nav-bar li{
+    margin-left:25px;
+    list-style-type:none;
+}
+
+.nav-bar .toggle-bar li{
+    margin-left:5px;
+}
+
+/*dark mode*/
+.nav-bar-dark {
+    border-bottom:solid 1px rgba(255,255,255,0.2);
+    background-color:#444444;
+}
+
+.nav-bar-dark .links-bar li:hover{
+    cursor: pointer;
+    color:rgba(255,255,255,0.2);
+}
+
+
+/*responsivenesss*/
+
+@media screen and (max-width:550px){
+    .nav-bar{
+        justify-content:space-between;
+        font-size:14px;
+    }
+    .nav-bar .links-bar{
+        display:none;
+    }
+    .nav-bar .logo-bar i{
+        font-size:15px;
+    }
+    .nav-bar .toggle-bar{
+        padding-right:10px;
+    }
+}

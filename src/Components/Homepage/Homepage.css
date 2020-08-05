@@ -1,0 +1,60 @@
+.homepage{
+    padding-top:100px;
+    padding-bottom:50px;
+}
+
+.homepage h5{
+    text-align:center;
+}
+
+.homepage p{
+    font-size:15px;
+}
+
+.filters{
+    width:50%;
+    margin:auto;
+    margin-bottom:40px;
+}
+
+.filters input{
+    padding:4px 14px;
+    border:solid 1px rgba(0,0,0,0.4);
+    outline:none;
+    margin-right:10px;
+}
+
+.filters select{
+    padding:4px 14px;
+    border:solid 1px rgba(0,0,0,0.4);
+    outline:none;
+}
+
+.posts{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+/*responsiveness*/
+@media screen and (max-width:550px){
+    .filters input{
+        width:75%;
+        margin-bottom:5px;
+    }
+}
+
+
+
+/*dark mode*/
+.homepage-dark .filters select{
+    background-color:#444444;
+    color:white;
+}
+
+.homepage-dark .filters input{
+    background-color:#444444;
+    color:white;
+}

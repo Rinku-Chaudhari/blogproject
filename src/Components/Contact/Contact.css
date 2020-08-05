@@ -1,0 +1,25 @@
+.contact{
+    width:50%;
+    margin:auto;
+    padding-top:100px;
+}
+
+.contact h5{
+    font-size:18px;
+}
+
+.contact p{
+    font-size:16px;
+    line-height:22px;
+}
+
+.contact a{
+    color:skyblue;
+}
+
+
+@media screen and (max-width:550px){
+    .contact p{
+        font-size:14px;
+    }
+}

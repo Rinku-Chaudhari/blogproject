@@ -1,0 +1,130 @@
+.post-detail-page{
+    padding-bottom:20px;
+    padding-top:100px;
+}
+
+.post-detail-page h5{
+    text-align:center;
+}
+
+.post-detail-page .post-details{
+    width:60%;
+    margin:auto;
+    padding-bottom:40px;
+    border-bottom:solid 1px rgba(0,0,0,0.4);
+}
+
+.post-detail-page .post-details img{
+    width:100%;
+    height:auto;
+}
+
+.post-detail-page .post-details p{
+    font-size:20px;
+    line-height:26px;
+}
+
+.post-detail-page .post-details .interactions{
+    margin-top:-5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+
+.post-detail-page .post-details .interactions p{
+   margin:30px 15px 30px 0;
+   color:coral;
+}
+
+.post-detail-page .blog-bar{
+    position: fixed;
+    top:55.2px;
+    min-width:1%;
+    height:3.5px;
+    max-width:100%;
+    background-color:skyblue;
+}
+
+.comment-section{
+    display:none;
+}
+
+.post-detail-page .commentbox-toggler{
+    width:60%;
+    margin:auto;
+    border-bottom:solid 1px rgba(0,0,0,0.4);
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.post-detail-page .commentbox-toggler p{
+    font-size:14px;
+    font-weight:bold;
+}
+
+.post-detail-page .commentbox-toggler:hover{
+    cursor: pointer;
+    color:skyblue;
+}
+
+
+.post-not-found p{
+    font-size:18px;
+    text-align:center;
+}
+
+.error-view p{
+    font-size:16px;
+    text-align:center;
+}
+
+.post-details .interactions img{
+    width:25px;
+    height:25px;
+    margin-left:10px;
+}
+
+.post-details .interactions img:hover{
+    cursor: pointer;
+}
+
+
+/*responsiveness */
+@media screen and (max-width:550px){
+    .post-detail-page .post-details{
+        width:90%;
+    }
+    .post-detail-page .post-details p{
+        font-size:18px;
+    }
+    .post-detail-page .blog-bar{
+        top:50px;
+    }
+    .post-detail-page .commentbox-toggler{
+        width:90%;
+    }
+}
+
+
+
+
+/*dark mode*/
+.post-detail-page-dark .post-details{
+    border-bottom:solid 1px rgba(255,255,255,0.4);
+}
+
+.post-detail-page-dark .commentbox-toggler{
+    border-bottom:solid 1px rgba(255,255,255,0.4);
+}
+
+
+.show{
+    display:block;
+}
+
+
+.hide{
+    display:none;
+}

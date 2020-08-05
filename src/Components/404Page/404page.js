@@ -1,14 +1,21 @@
 import React from 'react';
-import Blogpagenav from '../Blogpage/Blogpagenav/Blogpagenav';
 
 
-const fourOfourPage = () => {
+const styles = {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    textAlign: 'center',
+    height: '50vh'
+}
+
+const FourOfour = () => {
     return (
-        <div style={{ textAlign: 'center' }}>
-            <Blogpagenav />
-            <h2>404! Page not found</h2>
+        <div style={styles}>
+            <p style={{ fontSize: '16px' }}>Woof ,404 Page not found!</p>
         </div>
     )
 }
 
-export default fourOfourPage;
+export default FourOfour;
