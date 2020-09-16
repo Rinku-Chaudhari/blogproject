@@ -1,4 +1,4 @@
-### personal blog app
+## Personal blog app
 
 #### Live:https://blogapp-85fe6.web.app/
 
